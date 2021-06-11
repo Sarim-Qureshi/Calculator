@@ -1,0 +1,87 @@
+#container {
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: linear-gradient(to right bottom, rgba(245, 34, 57, 0.938), rgba(44, 34, 245, 0.644));
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+#calculator {
+    display: inline-block;
+    border-radius: 20px;
+    background: rgb(50, 50, 50);
+    border: 8px solid #555;
+    width: 270px;
+    margin: auto;
+    transform: translateY(14vh);
+}
+
+table {
+    width: 273px;
+    margin: auto;
+}
+
+h1 {
+  
+    color:rgba(29, 39, 61, 0.219);
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px #aaa;
+}
+h1:hover{
+    color:rgb(78, 78, 78);
+}
+
+button {
+    background: #A8A8A8;
+    border: 2px solid black;
+    width: 51px;
+    height: 51px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 26px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+    border: 3px solid #114;
+    color: rgb(235, 190, 245);
+}
+
+button:active{
+    background-color: rgb(4,217,255);
+    color: #003741;
+}
+.eq{
+    background-color: green;
+}
+.op{
+    background-color: #D4AF37;
+}
+input {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transform: translateY(-10px);
+    padding: 3px;
+    margin: 4px;
+    font-size: 25px;
+    background-color:#666;
+    color: #000;
+    font-weight:450;
+}
+#name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    color:rgb(105,199,250);
+    transform: translate(-2.2px, 70px);
+}
+#name:hover{
+    font-size:30.5px;
+    color:rgba(38, 48, 100, 0.63);
+    text-shadow: 1px 1px rgb(105,199,250);
+}
